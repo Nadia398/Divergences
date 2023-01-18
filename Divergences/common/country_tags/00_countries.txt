@@ -1,3 +1,5 @@
+NWT = "countries/NorthwestTerritories.txt"
+BLK = "countries/Blackfoot.txt"
 WAA = "countries/WaState.txt"
 ARB = "countries/Arabia.txt"
 JBS = "countries/JabalShammar.txt"

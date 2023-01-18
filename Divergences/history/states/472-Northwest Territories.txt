@@ -3,12 +3,12 @@ state={
 	name="STATE_472"
 
 	history={
-		owner = DNG
+		owner = NWT
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = DNG
+		add_core_of = NWT
 victory_points = {
 10527 1
 }

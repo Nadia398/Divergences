@@ -10,12 +10,12 @@ state={
 	}
 
 	history={
-		owner = DNG
+		owner = BLK
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
 		}
-		add_core_of = DNG
+		add_core_of = BLK
 		victory_points = {
 			1836 1 
 		}

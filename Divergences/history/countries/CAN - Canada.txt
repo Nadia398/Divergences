@@ -1,5 +1,5 @@
 ﻿capital = 276
-
+	puppet = NWT
 if = {
 	limit = {
 		NOT = {

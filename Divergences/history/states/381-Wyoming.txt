@@ -4,17 +4,17 @@ state={
 	name="STATE_381"
 
 	history={
-		owner = DNG
+		owner = BLK
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = DNG
+		add_core_of = BLK
 
 	}
 
 	provinces={
-		1815 3869 4610 4723 4794 4820 6887 7688 7814 7888 10535 10640 10711 12561 12633 12651 
+		1815 3869 4610 4723 4794 4820 6887 7688 7814 10535 10640 10711 12561 12633 12651 
 	}
 	manpower=225564
 	buildings_max_level_factor=1.000

@@ -6,12 +6,12 @@ state={
 	state_category = rural
 
 	history={
-		owner = DNG
+		owner = BLK
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = DNG
+		add_core_of = BLK
 		victory_points = {
 			1747 1 
 		}

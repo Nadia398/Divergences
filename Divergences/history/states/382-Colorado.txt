@@ -7,14 +7,14 @@ state={
 	}
 
 	history={
-		owner = DNG
+		owner = BLK
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 7
 			arms_factory = 5
 
 		}
-		add_core_of = DNG
+		add_core_of = BLK
 		add_core_of = ARA
 		victory_points = {
 			1827 5 
