@@ -1,0 +1,16 @@
+ 	characters={
+ 	MSC_Nazik_Al_Abid={
+ 	name= "Nazik al-Abid"
+ 	portraits= {
+ 	civilian = {
+ 	large ="/gfx/leaders/SYR/Portrait_SYR_Nazik_Abid.png"
+ 	}
+ 	}
+ 			country_leader={
+			ideology=democratic_socialism
+			traits={ proletariat_internationalist }
+			expire="2000.1.1.1"
+			id=-1
+ 	}
+
+ 	}

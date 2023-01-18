@@ -1,0 +1,17 @@
+state={
+	id=929
+	name="STATE_929"
+	provinces={
+		1057 1060 1140 1994 4191 10104 10754 10785 11951 
+	}
+	manpower=56498
+
+	state_category = town
+	history ={
+	owner = EGY
+	add_core_of = MGB
+	add_core_of = SAH
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

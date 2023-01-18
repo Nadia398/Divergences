@@ -1,0 +1,18 @@
+capital = 671 #Hanoi
+recruit_character=INC_Nguyen_Thi_Minh_Khai
+recruit_character=INC_Ho_Chi_Minh
+recruit_character=INC_Nguyen_An_Ninh
+oob = "INC_1936"
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	progressivism = 11
+	revisionist_socialism = 3
+	vanguard_socialism = 22
+	communism = 48
+	anarchism = 16
+}

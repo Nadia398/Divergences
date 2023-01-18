@@ -1,0 +1,21 @@
+state={
+	id=925
+	name="STATE_925"
+			history={
+		add_core_of = CAM
+		add_core_of = INC
+		owner = INC
+				buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+		}
+	provinces={
+		4596 12167 
+	}
+	manpower=345643
+	buildings_max_level_factor=1.000
+		state_category=town
+	local_supplies=0.000
+}

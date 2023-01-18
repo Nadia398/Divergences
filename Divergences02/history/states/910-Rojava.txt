@@ -1,0 +1,16 @@
+state={
+	id=910
+	name="STATE_910"
+	history = {
+	owner = MSC
+	add_core_of = MSC
+	add_core_of = SYR
+	add_core_of = KUR
+	}
+	provinces={
+		901 1549 1578 1606 1634 6883 10882 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

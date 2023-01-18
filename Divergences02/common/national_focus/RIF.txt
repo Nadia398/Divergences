@@ -1,0 +1,104 @@
+ focus_tree ={
+ id= MSCPR_focus
+country = {
+    factor = 0
+    modifier = {
+        add = 20
+        original_tag = RIF
+    }
+}
+	focus = {
+		id = RIF_The_New_Years_Offensive
+		x = 10
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = -100
+		}
+	}
+			focus = {
+	id = RIF_Rally_Communists
+	x=8
+	y=1
+	prerequisite = {focus = RIF_The_New_Years_Offensive}
+	cost = 5
+	completion_reward = {
+			add_political_power = 50
+			load_oob = "Rif_Red_Guards"
+						add_popularity = {
+					ideology = communism
+					popularity = 0.03
+
+				}
+	}
+	}
+				focus = {
+	id = RIF_Rally_Feminists
+	x=10
+	y=1
+	prerequisite = {focus = RIF_The_New_Years_Offensive}
+	cost = 5
+	completion_reward = {
+			add_political_power = 50
+			load_oob = "Rif_Red_Guards_2"
+						add_popularity = {
+					ideology = communism
+					popularity = 0.03
+
+				}
+										add_popularity = {
+					ideology = progressivism
+					popularity = 0.02
+
+				}
+										add_popularity = {
+					ideology = democratic
+					popularity = 0.01
+
+				}
+	}
+	}
+				focus = {
+	id = RIF_Rally_Saharans
+	x=12
+	y=1
+	prerequisite = {focus = RIF_The_New_Years_Offensive}
+	cost = 1
+	completion_reward = {
+			add_political_power = 50
+			load_oob = "Rif_Red_Guards_3"
+	}
+	}
+					focus = {
+	id = RIF_Victory
+	x=10
+	y=2
+	prerequisite = {focus = RIF_RIF_Rally_Feminists}
+	prerequisite = {focus = RIF_Rally_Saharans}
+	prerequisite = {focus = RIF_Rally_Communists}
+	cost = 1
+	completion_reward = {
+			add_political_power = 5
+	}
+	}
+}

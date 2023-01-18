@@ -1,0 +1,8 @@
+set_popularities = {
+    vanguard_socialism = 4
+	revisionist_socialism = 29
+	communism = 9
+	anarchism = 56
+	progressivism = 2
+	democratic=0
+} 

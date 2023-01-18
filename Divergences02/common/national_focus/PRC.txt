@@ -1,0 +1,153 @@
+ focus_tree ={
+ id= PRC_Focus
+country = {
+    factor = 0
+    modifier = {
+        add = 20
+        original_tag = PRC
+    }
+}
+	focus = {
+		id = PRC_The_Valdivostok_Question
+		icon = "Red_Star_2"
+		x = 10
+		y = 0
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 120
+				PRC = {country_event = PRC.1}
+		}
+	}
+		focus = {
+	id = PRC_Invite_Gada_Meiren
+	x=8
+	y=1
+	prerequisite = {focus = PRC_The_Valdivostok_Question}
+	cost = 3
+	completion_reward = {
+			add_political_power = 15
+	}
+	}
+
+		focus = {
+	id = PRC_Socialism_In_The_Far_East
+	x=10
+	y=1
+	prerequisite = {focus = PRC_The_Valdivostok_Question}
+	cost = 3
+	completion_reward = {
+			add_political_power = 15
+	}
+	}
+			focus = {
+	id = PRC_Form_Red_Guards
+	x=12
+	y=1
+	prerequisite = {focus = PRC_The_Valdivostok_Question}
+	cost = 3
+	completion_reward = {
+add_corps_commander_role = {
+    Character = PRC_Nie_Yuanzi
+    skill = 4
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 5
+}
+
+	}
+	}
+				focus = {
+	id = PRC_Liberate_Mongolia
+	x=10
+	y=2
+	prerequisite = {focus = PRC_Invite_Gada_Meiren}
+	prerequisite = {focus = PRC_Socialism_In_The_Far_East}
+	prerequisite = {focus = PRC_Form_Red_Guards}
+	cost = 3
+	completion_reward = {
+
+				declare_war_on = {
+    target = SHX
+    type = annex_everything
+}
+	}
+	}
+					focus = {
+	id = PRC_Liberate_Guangzhou
+	x=12
+	y=2
+	prerequisite = {focus = PRC_Invite_Gada_Meiren}
+	prerequisite = {focus = PRC_Socialism_In_The_Far_East}
+	prerequisite = {focus = PRC_Form_Red_Guards}
+	cost = 3
+	completion_reward = {
+
+				declare_war_on = {
+    target = CHI
+    type = annex_everything
+}
+	}
+	}
+					focus = {
+	id = PRC_Liberate_Guangxi
+	x=8
+	y=2
+	prerequisite = {focus = PRC_Invite_Gada_Meiren}
+	prerequisite = {focus = PRC_Socialism_In_The_Far_East}
+	prerequisite = {focus = PRC_Form_Red_Guards}
+	cost = 3
+	completion_reward = {
+
+				declare_war_on = {
+    target = GXC
+    type = annex_everything
+}
+	}
+	}
+					focus = {
+	id = PRC_Liberate_Yunnan
+	x=10
+	y=3
+	prerequisite = {focus = PRC_Liberate_Mongolia}
+	prerequisite = {focus = PRC_Liberate_Guangxi}
+	prerequisite = {focus = PRC_Liberate_Guangzhou}
+	cost = 3
+	completion_reward = {
+
+				declare_war_on = {
+    target = YUN
+    type = annex_everything
+}
+	}
+	}
+			focus = {
+	id = PRC_Rectifying_The_Division
+	x=20
+	y=0
+	cost = 3
+	completion_reward = {
+			add_political_power = 15
+	}
+	}
+}

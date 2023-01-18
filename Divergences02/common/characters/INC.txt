@@ -1,0 +1,69 @@
+characters={
+INC_Nguyen_Thi_Minh_Khai={
+name = "Nguyen Thi Minh Khai"
+gender = female
+portraits = {
+civilian= {
+large= "/gfx/leaders/INC/Nguyen_Thi_Minh_Khai.png"
+}
+}
+ 			country_leader={
+			ideology=spartakism
+			traits={
+	leftist_intellectual
+		hero_of_the_peasantry
+	}
+			expire="2000.1.1.1"
+			id=-1
+ 	}
+}
+INC_Nguyen_An_Ninh={
+name = "Nguyen An Ninh"
+portraits = {
+civilian= {
+large= "/gfx/leaders/INC/Portrait_INC_Nguyen_An_Ninh.png"
+small = "/gfx/advisors/INC/Nguyen_An_Ninh.png"
+}
+}
+advisor = {
+slot = political_advisor
+idea_token =  INC_Nguyen_An_Ninh
+allowed={
+has_completed_focus= INC_Nguyen_An_Ninh
+}
+traits={silent_workhorse}
+}
+ 			country_leader={
+			ideology=social_anarchism
+			traits={
+	}
+			expire="2000.1.1.1"
+			id=-1
+ 	}
+}
+INC_Ho_Chi_Minh={
+name = "Ho Chi Minh"
+portraits = {
+civilian= {
+large= "/gfx/leaders/INC/Ho_Chi_Minh.png"
+small = "/gfx/advisors/INC/Ho_Chi_Minh.png"
+}
+}
+advisor = {
+slot = political_advisor
+idea_token = INC_Ho_Chi_Minh
+allowed={
+has_completed_focus= INC_Ho_Chi_Minh
+}
+traits={silent_workhorse}
+}
+
+ 			country_leader={
+			ideology=leninism
+			traits={
+	}
+			expire="2000.1.1.1"
+			id=-1
+ 	}
+}
+}

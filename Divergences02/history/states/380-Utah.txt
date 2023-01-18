@@ -1,0 +1,31 @@
+
+state={
+	id=380
+	name="STATE_380"
+	resources={
+		tungsten=76.000
+	}
+
+	history={
+		owner = DNG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 5
+
+		}
+		add_core_of = ARA
+		add_core_of = DNG
+		victory_points = {
+			4865 1 
+		}
+
+	}
+
+	provinces={
+		868 1658 1663 1740 1756 1862 4668 4742 4865 7684 7756 7764 7818 7879 7999 9695 9792 10582 10591 10625 10651 10662 12535 12573 12607 12699 13153 
+	}
+	manpower=507846
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

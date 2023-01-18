@@ -1,0 +1,87 @@
+SOV_bop = {
+initial_value = 0.25
+	left_side = SOV_bop_Supreme_Soviet
+	right_side = SOV_bop_Constituent_Assembly
+	decision_category = SOV_bop_decisions
+	range = {
+		id = mid_range
+		min = -0.1
+		max = 0.1
+		modifier = {
+
+		}
+	}
+	side = {
+		id =SOV_bop_Supreme_Soviet
+		icon = GFX_idea_generic_agrarian_society
+		range = {
+			id = partially_Soviet
+			min = -0.3
+			max = -0.1
+			modifier = {
+
+			}
+		}
+				range = {
+			id = half_Soviet
+			min = -0.6
+			max = -0.3
+			modifier = {
+
+			}
+			}
+							range = {
+			id = mainly_Soviet
+			min = -0.9
+			max = -0.6
+			modifier = {
+
+			}
+		}
+							range = {
+			id = fully_Soviet
+			min = -1.0
+			max = -0.9
+			modifier = {
+
+			}
+		}
+	}
+	side = {
+		id = SOV_bop_Constituent_Assembly
+		icon = GFX_idea_generic_degauss_ship_hulls
+		range = {
+			id = partially_Constituent_Assembly
+			min = 0.1
+			max = 0.3
+			modifier = {
+
+			}
+		}
+				range = {
+			id = half_Constituent_Assembly
+			min = 0.3
+			max = 0.6
+			modifier = {
+
+			}
+			}
+							range = {
+			id = mainly_Constituent_Assembly
+			min = 0.6
+			max = 0.9
+			modifier = {
+
+			}
+		}
+							range = {
+			id = fully_Constituent_Assembly
+			min = 0.9
+			max = 1.0
+			modifier = {
+
+			}
+		}
+	}
+}
+

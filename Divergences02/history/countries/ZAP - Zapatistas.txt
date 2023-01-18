@@ -1,0 +1,10 @@
+recruit_character =  		ZAP_Emiliano Zapata
+ set_popularities = {
+    vanguard_socialism = 4
+	revisionist_socialism = 29
+	communism = 11
+	anarchism = 56
+	progressivism = 0
+	democratic = 0
+} 
+

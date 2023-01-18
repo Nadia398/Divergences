@@ -1,0 +1,29 @@
+
+state={
+	id=740
+	name="STATE_740"
+	manpower = 2596120
+	
+	state_category = large_city
+
+	history={
+		owner = DNG
+		buildings = {
+			infrastructure = 5
+			arms_factory = 4
+			industrial_complex = 5
+			air_base = 6
+		}
+		add_core_of = DNG
+		victory_points = {
+		7259 32
+		}
+	}
+
+	provinces={
+		7259 1214 12259 12272 1420 
+	}
+	
+
+	local_supplies=0.0 
+}

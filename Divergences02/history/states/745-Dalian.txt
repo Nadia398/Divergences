@@ -1,0 +1,33 @@
+
+state={
+	id=745
+	name="STATE_745"
+
+	history={
+		owner = CHW
+		add_core_of = CHW
+		victory_points = {
+			1150 1 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			industrial_complex = 1
+			1150 = {
+				naval_base = 5
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1618 1738 2055 2102 4586 4740 5103 7762 7904 9908 10340 10642 10798 11802 12624 12627 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

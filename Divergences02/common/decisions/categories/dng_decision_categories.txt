@@ -1,0 +1,11 @@
+DNG_plurinational_bop_decisions = {
+	allowed = {
+		original_tag = DNG
+	}
+	visible = {
+		#always = no
+	}
+	priority = {
+	base=10
+	}
+}

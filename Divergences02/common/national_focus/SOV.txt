@@ -1,0 +1,441 @@
+ focus_tree ={
+ id= SOV_focus
+country = {
+    factor = 0
+    modifier = {
+        add = 20
+        original_tag = SOV
+    }
+}
+	focus = {
+		id = SOV_A_Union_Of_Republics
+		icon = "Red_Star_2"
+		x = 10
+		y = 0
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 120
+				set_power_balance = {
+					id = SOV_bop
+				}
+		}
+
+}
+		focus = {
+	id = SOV_Anti_Monarchism
+	x=8
+	y=1
+		prerequisite = {focus =SOV_A_Union_Of_Republics}
+	cost =5
+	completion_reward = {
+			add_political_power = 175
+	add_popularity = {
+    ideology = fascism
+    popularity = -0.5
+}
+add_popularity = {
+    ideology = reactionism
+    popularity = -0.5
+}
+add_popularity = {
+    ideology = despotism
+    popularity = -0.5
+}
+		}
+
+	}
+			focus = {
+	id = SOV_Crack_The_Reactionaries
+	x=12
+	y=1
+		prerequisite = {focus =SOV_A_Union_Of_Republics}
+	cost =5
+	completion_reward = {
+			add_political_power = 175
+	add_popularity = {
+    ideology = fascism
+    popularity = -0.5
+}
+add_popularity = {
+    ideology = reactionism
+    popularity = -0.5
+}
+add_popularity = {
+    ideology = despotism
+    popularity = -0.5
+}
+add_popularity = {
+    ideology = neutrality
+    popularity = -0.5
+}
+add_popularity = {
+    ideology = conservatism_ideology
+    popularity = -0.5
+}
+		}
+
+	}
+		focus = {
+	id = SOV_A_Union_Of_Equals
+	x=10
+	y=1
+		prerequisite = {focus =SOV_A_Union_Of_Republics}
+	cost =5
+	completion_reward = {
+			add_political_power = 175
+			add_ideas = {
+			SOV_A_Union_Of_Equals
+			}
+	add_popularity = {
+	ideology = communism
+	popularity = 0.03
+	}
+		add_popularity = {
+	ideology = revisionist_socialism
+	popularity = 0.02
+	}
+		add_popularity = {
+	ideology = vanguard_socialism
+	popularity = 0.01
+	}
+	add_popularity = {
+	ideology = anarchism
+	popularity = 0.01
+	}
+		}
+
+	}
+			focus = {
+	id = SOV_Yakutian_Autonomy
+	x=8
+	y=2
+		prerequisite = {focus =SOV_A_Union_Of_Equals}
+	cost =10
+	completion_reward = {
+			add_political_power = 20
+	add_popularity = {
+	ideology = progressivism
+	popularity = 0.01
+	}
+
+		}
+
+	}
+				focus = {
+	id = SOV_Korenizatsiya
+	x=12
+	y=2
+		prerequisite = {focus =SOV_A_Union_Of_Equals}
+	cost =10
+	completion_reward = {
+			add_political_power = 20
+	add_popularity = {
+	ideology = communism
+	popularity = 0.01
+	}
+
+		}
+
+	}
+		focus = {
+	id = SOV_Liberation_Of_Women
+	x=10
+	y=2
+		prerequisite = {focus =SOV_A_Union_Of_Equals}
+	cost =10
+	completion_reward = {
+			add_political_power = 20
+			add_ideas = {
+			SOV_Liberation_Of_Women
+			}
+
+		}
+
+	}
+				focus = {
+	id = SOV_Improve_Womens_Education
+	x=8
+	y=3
+		prerequisite = {focus =SOV_Liberation_Of_Women}
+	cost =10
+	completion_reward = {
+			add_political_power = 20
+			add_popularity = {
+    ideology = communism
+    popularity = 0.03
+}
+			add_popularity = {
+    ideology = anarchism
+    popularity = 0.02
+}
+		add_research_slot = 1
+
+		}
+
+	}
+					focus = {
+	id = SOV_New_Soviet_Woman
+	x=12
+	y=3
+			icon = GFX_goal_support_communism
+		prerequisite = {focus =SOV_Liberation_Of_Women}
+
+	cost =10
+	completion_reward = {
+			add_political_power = 120
+		add_stability = 0.1
+
+		}
+
+	}
+			focus = {
+	id = SOV_Liberation_Of_Minorities
+	x=10
+	y=3
+		prerequisite = {focus =SOV_Liberation_Of_Women}
+	cost =10
+	completion_reward = {
+			add_political_power = 20
+			add_popularity = {
+    ideology = communism
+    popularity = 0.03
+}
+
+			add_ideas = {
+			SOV_Liberation_Of_Minorities
+			}
+
+		}
+
+	}
+					focus = {
+	id = SOV_A_Union_Of_Nations
+	x=8
+	y=4
+		prerequisite = {focus =SOV_Liberation_Of_Minorities}
+	cost =10
+	completion_reward = {
+			add_political_power = 20
+			add_popularity = {
+    ideology = communism
+    popularity = 0.02
+}
+			add_popularity = {
+    ideology = progressivism
+    popularity = 0.01
+}
+
+
+		}
+
+	}
+						focus = {
+	id = SOV_Liberation_Of_Eurasia
+	x=12
+	y=4
+		prerequisite = {focus =SOV_Liberation_Of_Minorities}
+	cost =10
+	completion_reward = {
+			add_political_power = 20
+			add_popularity = {
+    ideology = communism
+    popularity = 0.02
+}
+			add_popularity = {
+    ideology = revisionist_socialism
+    popularity = 0.01
+}
+
+
+		}
+
+	}
+				focus = {
+	id = SOV_Liberation_Of_The_Peasantry
+	x=10
+	y=4
+		prerequisite = {focus =SOV_Liberation_Of_Minorities}
+	cost =10
+	completion_reward = {
+			add_political_power = 20
+			add_popularity = {
+    ideology = communism
+    popularity = 0.03
+}
+
+			add_ideas = {
+			SOV_enraged_Landlords
+			}
+
+		}
+
+	}
+					focus = {
+	id = SOV_Crush_The_LandLords
+	x=12
+	y=5
+	prerequisite={focus= SOV_Liberation_Of_The_Peasantry}
+	cost =10
+	completion_reward = {
+			completion_reward = {
+
+		}
+			add_political_power = 20
+			add_popularity = {
+    ideology = communism
+    popularity = 0.01
+}
+			add_popularity = {
+    ideology = anarchism
+    popularity = 0.01
+}
+
+			remove_ideas = {
+		SOV_enraged_Landlords
+			}
+
+
+		}
+
+	}
+				focus = {
+	id = SOV_Socialize_The_Land
+	x=8
+	y=5
+	prerequisite={focus= SOV_Liberation_Of_The_Peasantry}
+	cost =10
+	completion_reward = {
+			completion_reward = {
+
+		}
+			add_political_power = 20
+			add_popularity = {
+    ideology = communism
+    popularity = 0.03
+}
+			add_popularity = {
+    ideology = anarchism
+    popularity = 0.05
+}
+add_popularity ={
+ideology = revisionist_socialism
+popularity = 0.01
+}
+
+			add_ideas = {
+		SOV_Socialize_The_Land
+			}
+
+
+		}
+
+	}
+		focus = {
+	id = SOV_end_the_islamists
+	x = 0
+	y=0
+	cost =1
+	completion_reward = {
+				add_political_power = 18
+				declare_war_on = {
+    target = DAG
+    type = annex_everything
+}
+
+	}
+	}
+		focus = {
+	id = SOV_The_Georgian_Seccesionists
+	x=0
+	y=1
+		prerequisite = {focus =SOV_end_the_islamists}
+	cost =5
+	completion_reward = {
+	GEO = {country_event = SOV_diplomacy.1}
+	}
+	}
+			focus = {
+	id = SOV_Absorb_Bukhara
+	x=0
+	y=2
+		prerequisite = {focus =SOV_The_Georgian_Seccesionists}
+	cost =5
+	completion_reward = {
+declare_war_on = {
+target = BUK
+type = annex_everything
+	}
+	}
+}
+			focus = {
+	id = SOV_Reclaim_Chita
+	x=2
+	y=2
+		prerequisite = {focus =SOV_The_Georgian_Seccesionists}
+	cost =5
+	completion_reward = {
+declare_war_on = {
+target = BYA
+type = annex_everything
+	}
+	}
+}
+			focus = {
+	id = SOV_Annex_Khorezm
+	x=0
+	y=3
+		prerequisite = {focus =SOV_Absorb_Bukhara}
+	cost =5
+	completion_reward = {
+annex_country = {
+    target = KHI
+    transfer_troops = yes
+}
+	}
+}
+			focus = {
+	id = SOV_Reel_In_Turkmenistan
+	x=0
+	y=4
+		prerequisite = {focus =SOV_Annex_Khorezm}
+	cost =5
+	completion_reward = {
+declare_war_on = {
+target = TMS
+type = annex_everything
+	}
+	}
+}
+			focus = {
+	id = SOV_Spiridonovinas_Relection
+	x=20
+	y=0
+
+	cost =1
+	completion_reward = {
+
+	}
+}
+}
+
+

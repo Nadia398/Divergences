@@ -1,0 +1,32 @@
+
+state={
+	id=382
+	name="STATE_382"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = DNG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 7
+			arms_factory = 5
+
+		}
+		add_core_of = DNG
+		add_core_of = ARA
+		victory_points = {
+			1827 5 
+		}
+
+	}
+
+	provinces={
+		1809 1827 7780 10588 12642 
+	}
+	manpower=1035790
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=8.000
+}

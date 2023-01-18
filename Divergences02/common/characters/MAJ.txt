@@ -1,0 +1,19 @@
+	characters = {
+	MAJ_amir_sjarifuddin_harahap={
+		name="Amir Sjarifuddin"
+		portraits={
+			civilian={
+				large="/gfx/leaders/MAJ/Amir_Sjarifoeddin.tga"
+			}
+			army = {large="/gfx/leaders/MAJ/Amir_Sjarifoeddin.tga"}
+		}
+		country_leader={
+			ideology=marxism
+			traits = {
+			freedom_fighter
+			}
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	}

@@ -1,0 +1,186 @@
+focus_tree ={
+ id= INC_Focus
+country = {
+    factor = 0
+    modifier = {
+        add = 20
+        original_tag = INC
+    }
+}
+	focus = {
+		id = INC_Legacy_Of_The_Revolution
+		x = 0
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+
+
+
+		completion_reward = {
+army_experience = 15
+
+}
+}
+
+	focus = {
+		id = INC_Elections
+		x = 10
+		y = 0
+
+		cost = 7
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+
+
+
+		completion_reward = {
+	INC = {country_event = Indochina.1}
+			add_political_power = 120
+
+}
+}
+	focus = {
+		id = INC_Form_Coalition
+		x = 10
+		y = 1
+	prerequisite = {focus = INC_Elections}
+		cost = 1
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+
+
+
+		completion_reward = {
+	INC = {country_event = Indochina.2}
+			add_political_power = 35
+
+}
+}
+	focus = {
+		id = INC_Ho_Chi_Minh
+		x = 9
+		y = 2
+	prerequisite = {focus = INC_Form_Coalition}
+	mutually_exclusive = {focus = INC_Nguyen_An_Ninh}
+		cost = 2
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+
+
+
+		completion_reward = {
+
+			add_political_power = 35
+
+}
+}
+	focus = {
+		id = INC_Nguyen_An_Ninh
+		x = 11
+		y = 2
+	prerequisite = {focus = INC_Form_Coalition}
+	mutually_exclusive = {focus = INC_Ho_Chi_Minh}
+		cost = 2
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+
+
+
+		completion_reward = {
+			add_political_power = 35
+
+}
+}
+	focus = {
+		id = INC_Prepare_The_Army
+		x = 10
+		y = 3
+prerequisite = {focus = INC_Nguyen_An_Ninh focus= INC_Ho_Chi_Minh}
+		cost = 10
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+
+
+
+		completion_reward = {
+army_experience = 15
+
+}
+}
+	focus = {
+		id = INC_Reunite_Cambodia
+		x = 10
+		y = 4
+prerequisite = {focus = INC_Prepare_The_Army}
+		cost = 10
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+
+
+
+		completion_reward = {
+army_experience = 5
+declare_war_on = {
+    target = CAM
+    type = annex_everything
+}
+}
+}
+	focus = {
+		id = INC_expand_minority_rights
+		x = 10
+		y = 5
+prerequisite = {focus = INC_Reunite_Cambodia}
+		cost = 10
+
+		available = {
+controls_state = 868
+controls_state = 927
+		}
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+
+
+
+		completion_reward = {
+
+	add_state_core = 868
+	add_state_core = 927
+}
+}
+}
+

@@ -1,0 +1,35 @@
+
+state={
+	id=377
+	name="STATE_377"
+	resources={
+		steel=20.000
+		oil=5.000
+		aluminium=8.000
+	}
+
+	history={
+		owner = DNG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 7
+			arms_factory = 5
+			air_base = 2
+
+		}
+		add_core_of = ARA
+		add_core_of = DNG
+		victory_points = {
+			853 3 
+		}
+
+	}
+
+	provinces={
+		850 853 1793 1972 4796 6897 7747 7821 8115 10573 10645 10914 11814 12552 12765 
+	}
+	manpower=435572
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=8.000
+}

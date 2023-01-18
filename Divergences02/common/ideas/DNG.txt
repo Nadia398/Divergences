@@ -1,0 +1,29 @@
+ideas = {
+    country = {
+     DNG_economic_planning = {
+
+		modifier = {
+			production_speed_buildings_factor = 0.1
+		}
+        }
+        my_idea_2 = {
+        }
+          DNG_nadiaism= {
+          			rule = {
+				can_create_factions = yes
+				}
+				modifier = {
+                political_power_gain = 0.1
+                weekly_manpower = 500
+                stability_weekly = 0.001
+}
+
+        }
+           DNG_Local_Autonomy = {
+           modifier = {
+           surrender_limit = 0.35
+           political_power_gain = 0.1
+           }
+           }
+    }
+}

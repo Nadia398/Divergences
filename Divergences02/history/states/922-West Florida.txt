@@ -1,0 +1,14 @@
+state={
+	id=922
+	name="STATE_922"
+	history = {
+	owner = ASU
+	add_core_of = AIR
+	}
+	provinces={
+		492 860 4594 7640 9996 10352 10380 10520 11509 11942 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

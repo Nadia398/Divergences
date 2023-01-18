@@ -1,0 +1,19 @@
+characters={
+KPD_Rosa_Luxemburg={
+		name="Rosa Luxemburg"
+		portraits={
+			army={
+				large="/gfx/leaders/KPD/Rosa_Luxemburg.tga"
+			}
+			civilian={
+				large="/gfx/leaders/KPD/Rosa_Luxemburg.tga"
+			}
+		}
+		country_leader={
+			ideology=spartakism
+			traits={ leftist_intellectual }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+}

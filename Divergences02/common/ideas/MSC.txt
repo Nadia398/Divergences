@@ -1,0 +1,11 @@
+ideas = {
+country = {
+MSC_Turkia_Annexation = {
+modifier = {
+stability_factor = -0.5
+political_power_gain = -0.4
+war_support_factor = -0.3
+}
+}
+}
+}

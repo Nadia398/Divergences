@@ -1,0 +1,11 @@
+	units = {
+	division= {
+		name = "7th Rif Revolutionary Guards"
+		location = 8038
+		division_template = "Rif Revolutionary Guards"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 1    #optional, otherwise starts with equipment factor of 1 (maximum)
+
+	}
+
+}

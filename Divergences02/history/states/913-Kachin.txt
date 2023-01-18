@@ -1,0 +1,14 @@
+state={
+	id=913
+	name="STATE_913"
+		history = {
+	owner = YUN
+	add_core_of = PRC
+	}
+	provinces={
+		1082 1197 1934 4318 4425 4996 8063 10920 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

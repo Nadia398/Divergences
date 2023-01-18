@@ -1,0 +1,83 @@
+ 
+ focus_tree ={
+ id= SIA_Revolt
+country = {
+    factor = 0
+    modifier = {
+        add = 20
+        original_tag = SIA
+    }
+}
+	focus = {
+		id = SIA_Reel_In_Cambodia
+		x = 10
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+
+
+
+		completion_reward = {
+		declare_war_on = {
+    target = CAM
+    type = annex_everything
+}
+			add_political_power = 120
+
+}
+}
+	focus = {
+		id = SIA_Destroy_Hope
+		x = 10
+		y = 1
+	prerequisite = {focus = SIA_Reel_In_Cambodia}
+		cost = 10
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+
+
+
+		completion_reward = {
+		declare_war_on = {
+    target = INC
+    type = annex_everything
+}
+			add_political_power = 120
+
+}
+}
+	focus = {
+		id = SIA_To_The_Slaughter
+		x = 10
+		y = 2
+	prerequisite = {focus =  SIA_Destroy_Hope}
+		cost = 10
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+
+
+
+		completion_reward = {
+		declare_war_on = {
+    target = MAJ
+    type = annex_everything
+}
+			add_political_power = 120
+
+}
+}
+}

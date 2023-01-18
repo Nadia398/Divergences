@@ -1,0 +1,6 @@
+DNG_plurinational_bop_decisions = {
+    my_decision_1 = {
+    }
+       my_decision_2 = {
+    }
+}

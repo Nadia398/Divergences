@@ -1,0 +1,33 @@
+add_namespace= PRC
+country_event = {
+id = PRC.1
+title = PRC.1.t
+desc = PRC.1.desc
+is_triggered_only = yes
+option = {
+name = PRC.1.a
+set_province_name = {
+id = 957
+name = Haishenwai
+}
+set_province_name = {
+id = 12189
+name = Boli
+}
+hidden_effect = {
+408={set_state_name = Haishenwai}
+409={set_state_name = Boli}
+}
+}
+option = {
+name = PRC.1.b
+set_province_name = {
+id = 12189
+name = Boli
+}
+hidden_effect = {
+409={set_state_name = Boli}
+}
+
+}
+}

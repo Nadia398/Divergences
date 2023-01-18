@@ -1,0 +1,47 @@
+ 	characters={
+ 	ANA_Supreme_Calpulli={
+ 	name= "Supreme Calpulli"
+ 	portraits= {
+ 	civilian = {
+ 	large ="/gfx/leaders/ANA/Portrait_ANA_Supreme_Calpulli.png"
+ 	}
+ 	}
+ 			country_leader={
+			ideology=folk_socialism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+ 	}
+ 	 			country_leader={
+			ideology=social_republicanism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+ 	}
+ 	 	 			country_leader={
+			ideology=agrarian_socialism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+ 	}
+ 			country_leader={
+			ideology=progressive_democracy
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+ 	}
+ 	 			country_leader={
+			ideology=socialism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+ 	}
+ 	 			country_leader={
+			ideology=social_anarchism
+			traits={  }
+			expire="2000.1.1.1"
+			id=-1
+ 	}
+ 	}
+ 	}
+

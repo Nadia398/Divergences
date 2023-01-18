@@ -1,0 +1,39 @@
+
+state={
+	id=374
+	name="STATE_374"
+	resources={
+		oil=60.000
+		aluminium=20.000
+	}
+
+	history={
+		owner = CHW
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		add_core_of = CHW
+		victory_points = {
+			1806 1 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1503 2082 3875 3972 4522 4919 5001 5085 6803 6968 7485 7945 8025 9822 9829 9920 10702 11743 12401 12458 12489 12778 12848 12893
+	}
+	manpower=2396039
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+SOV_bop_decisions = {
+	allowed = {
+		original_tag = SOV
+	}
+	visible = {
+		#always = no
+	}
+	priority = {
+	base=10
+	}
+}
+SOV_Korenizatsiya_Decisions = {
+	allowed = {
+		original_tag = SOV
+	}
+	visible = {
+		has_completed_focus = SOV_Korenizatsiya
+	}
+	priority = {
+	base=10
+	}
+}

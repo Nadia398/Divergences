@@ -1,0 +1,30 @@
+add_namespace= SOV_diplomacy
+country_event = {
+id = SOV_diplomacy.1
+title = SOV_diplomacy.1.t
+desc = SOV_diplomacy.1.desc
+is_triggered_only = yes
+option = {
+ai_chance = {
+base = 100
+}
+name = SOV_diplomacy.1.a
+SOV = {
+transfer_state = 828
+transfer_state  = 821
+transfer_state  = 827
+}
+}
+option = {
+name = SOV_diplomacy.1.b
+ai_chance = {
+base = 0
+}
+declare_war_on = {
+    target = SOV
+    type = annex_everything
+}
+
+}
+}
+

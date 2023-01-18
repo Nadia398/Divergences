@@ -1,0 +1,44 @@
+focus_tree = {
+	id = PLR_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = PLR
+
+}
+}
+	focus = {
+		id = PLR_Calming_Tensions
+		icon = "Red_Star_2"
+		x = 10
+		y = 0
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 120
+		add_stability = 0.05
+		}
+	}
+}

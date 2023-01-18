@@ -1,0 +1,168 @@
+ focus_tree ={
+ id= MSCPR_focus
+country = {
+    factor = 0
+    modifier = {
+        add = 20
+        original_tag = MSC
+    }
+}
+	focus = {
+		id = MSC_Unification_with_Turkia
+		x = 10
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = -100
+		}
+	}
+		focus = {
+	id = MSC_Integrate_Governments
+	x=8
+	y=1
+	prerequisite = {focus = MSC_Unification_with_Turkia}
+	cost = 10
+	completion_reward = {
+			add_political_power = 50
+	}
+	}
+			focus = {
+	id = MSC_Calm_The_Nationalists
+	x=10
+	y=1
+	prerequisite = {focus = MSC_Unification_with_Turkia}
+	cost = 10
+	completion_reward = {
+			add_political_power = 50
+						add_popularity = {
+					ideology = communism
+					popularity = 0.01
+
+				}
+								add_popularity = {
+					ideology = revisionist_socialism
+					popularity = 0.01
+				}
+				add_popularity = {
+				ideology = vanguard_socialism
+				popularity = 0.01
+				}
+								add_popularity = {
+					ideology = neutrality
+					popularity = 0.01
+				}
+	}
+	}
+
+
+			focus = {
+	id = MSC_A_Union_Of_Republics
+	x=12
+	y=1
+	prerequisite = {focus = MSC_Unification_with_Turkia}
+	cost = 10
+	completion_reward = {
+			add_political_power = 50
+						add_popularity = {
+					ideology = communism
+					popularity = 0.01
+
+				}
+								add_popularity = {
+					ideology = revisionist_socialism
+					popularity = 0.01
+				}
+				add_popularity = {
+				ideology = vanguard_socialism
+				popularity = 0.01
+				}
+
+	}
+	}
+		completion_reward = {
+			add_political_power = 50
+	}
+
+			focus = {
+	id = MSC_Stabilizing_Turkia
+	x=10
+	y=2
+	prerequisite = {focus = MSC_A_Union_Of_Republics}
+	prerequisite = {focus=MSC_Calm_The_Nationalists}
+	prerequisite = {focus=MSC_Integrate_Governments}
+	cost = 10
+	completion_reward = {
+			add_political_power = 50
+	remove_ideas = MSC_Turkia_Annexation
+
+	}
+	}
+			focus = {
+	id = MSC_Cooperation_With_The_Communists
+	x=9
+	y=3
+	prerequisite = {focus = MSC_Stabilizing_Turkia}
+	mutually_exclusive = { focus = MSC_Workers_Party_Alone }
+	cost = 10
+	completion_reward = {
+			add_political_power = 50
+						add_popularity = {
+					ideology = communism
+					popularity = 0.03
+
+				}
+								add_popularity = {
+					ideology = vanguard_socialism
+					popularity = 0.02
+
+				}
+								add_popularity = {
+					ideology = anarchism
+					popularity = 0.03
+
+				}
+												add_popularity = {
+					ideology = revisionist_socialism
+					popularity = 0.01
+				}
+
+	}
+	}
+				focus = {
+	id = MSC_Workers_Party_Alone
+	x=11
+	y=3
+	prerequisite = {focus = MSC_Stabilizing_Turkia}
+	mutually_exclusive = { focus = MSC_Cooperation_With_The_Communists }
+	cost = 10
+	completion_reward = {
+			add_political_power = 50
+
+												add_popularity = {
+					ideology = revisionist_socialism
+					popularity = 0.05
+				}
+
+	}
+	}
+}

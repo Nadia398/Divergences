@@ -1,0 +1,150 @@
+ 	characters={
+ 		DNG_Mao_Zemin={
+		name="Mao Zemin"
+		portraits={
+			army={
+				large="/gfx/leaders/DNG/Mao_Zemin.png"
+				small="/gfx/advisors/Mao_Zemin.png"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer trait_mountaineer }
+			skill=5
+			attack_skill=4
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+				advisor={
+			cost = 100
+
+			slot = theorist
+			ledger = army
+			allowed = {
+				original_tag = DNG
+			}
+
+			traits = {
+				military_theorist
+			}
+		}
+	}
+ 		DNG_long_yun={
+		name="Long Yun"
+		portraits={
+			civilian={
+				large="GFX_portrait_yun_long_yun"
+			}
+			army = {
+				small=GFX_portrait_YUN_long_yun_small
+				large="GFX_portrait_yun_long_yun"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+		slot = political_advisor
+		traits = {
+		silent_workhorse
+		}
+		}
+	}
+ 	DNG_Nadia={
+		name="Nadia"
+		portraits={
+			army={
+				large="/gfx/leaders/DNG/Nadia.tga"
+			}
+			civilian={
+				large="/gfx/leaders/DNG/Nadia.tga"
+			}
+		}
+		country_leader={
+			ideology=anti_revisionism 
+			traits={ cornered_fox }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	} 
+	DNG_Ariade_Lee={
+		name="Ariade Lee"
+		female=yes
+		portraits={
+			army={
+				large="/gfx/leaders/DNG/Ariade_Lee.png"
+                small="/gfx/advisors/Ariade_Lee.png"
+			}
+			civilian={
+				large="/gfx/leaders/DNG/Ariade_Lee.png"
+                small="/gfx/advisors/Ariade_Lee.png"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious  defensive_doctrine }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+		advisor={
+			slot = high_command
+			idea_token = "Ariade Lee"
+			ledger = army
+			allowed = {
+				original_tag = DNG
+			}
+			traits = {
+				army_armored_2
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+
+	} 
+	DNG_Cai_Chiang={
+		name="Cai Chiang"
+		portraits={
+			army={
+				large="/gfx/leaders/DNG/Cai_Chiang.png"
+				small="/gfx/advisors/Cai_Chiang.png"
+			}
+			civilian={
+				large="/gfx/leaders/DNG/Cai_Chiang.png"
+				small="/gfx/advisors/Cai_Chiang.png"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious  defensive_doctrine }
+			skill=5
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	advisor={
+			slot = army_chief
+			idea_token = "Cai Chiang"
+			allowed = {
+				original_tag = DNG
+			}
+			traits = {
+				army_chief_morale_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+	} 
+}

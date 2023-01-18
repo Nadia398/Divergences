@@ -1,0 +1,23 @@
+ 	ZAP_Emiliano_Zapata={
+		name="Emiliano Zapata"
+		portraits={
+			civilian={
+				large="GFX_portrait_yun_long_yun"
+			}
+			army = {
+				small=GFX_portrait_YUN_long_yun_small
+				large="GFX_portrait_yun_long_yun"
+			}
+		}
+		country_leader={
+			ideology=anarch_communism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+		slot = political_advisor
+		traits = {
+		silent_workhorse
+		}
+		}
+	}

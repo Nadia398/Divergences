@@ -1,0 +1,44 @@
+Indochina_Nguyen_An_Ninh ={
+name = "1"
+desc = "2"
+allowed = {
+original_tag = INC
+}
+enable = {
+or = {
+has_game_rule = {
+rule = INC_COALITION_BEHAVIOR
+option = NGUYEN_AN_NINH
+}
+}
+}
+ai_national_focuses = {
+INC_Elections
+INC_Form_Coalition
+INC_Nguyen_An_Ninh
+}
+}
+
+
+Indochina_Ho_Chi_Minh ={
+name = "3"
+desc = "4"
+allowed = {
+original_tag = INC
+}
+enable = {
+or = {
+has_game_rule = {
+rule = INC_COALITION_BEHAVIOR
+option = HO_CHI_MINH
+}
+}
+}
+ai_national_focuses = {
+INC_Elections
+INC_Form_Coalition
+INC_Ho_Chi_Minh
+}
+
+
+}

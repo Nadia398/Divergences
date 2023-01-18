@@ -1,0 +1,22 @@
+add_namespace = Indochina
+country_event = {
+    id = Indochina.1
+    title= Indochina.1.t
+    desc = Indochina.1.desc
+    is_triggered_only = yes
+    option = {
+    name = Indochina.1.a
+    }
+}
+country_event = {
+    id = Indochina.2
+    title= Indochina.2.t
+    desc = Indochina.2.desc
+    is_triggered_only = yes
+    option = {
+    name = Indochina.2.a
+    }
+    option = {
+    name = Indochina.2.b
+    }
+}
