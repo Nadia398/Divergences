@@ -1,0 +1,100 @@
+division_template = {
+name = "Bulgarian Infantry"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+name = "Bulgarian Revolutionary Guards"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+units = {
+	division= {
+		name = "1st Infantry Division"
+		location = 11905
+		division_template = "Bulgarian Infantry"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 1    #optional, otherwise starts with equipment factor of 1 (maximum)
+
+	}
+		division= {
+		name = "2nd Infantry Division"
+		location = 11905
+		division_template = "Bulgarian Infantry"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 1    #optional, otherwise starts with equipment factor of 1 (maximum)
+
+	}
+		division= {
+		name = "3rd Infantry Division"
+		location = 11774
+		division_template = "Bulgarian Infantry"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 1    #optional, otherwise starts with equipment factor of 1 (maximum)
+
+	}
+		division= {
+		name = "4th Infantry Division"
+		location = 9791
+		division_template = "Bulgarian Infantry"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 1    #optional, otherwise starts with equipment factor of 1 (maximum)
+
+	}
+		division= {
+		name = "5th Infantry Division"
+		location = 9930
+		division_template = "Bulgarian Infantry"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 1    #optional, otherwise starts with equipment factor of 1 (maximum)
+
+	}
+		division= {
+		name = "6th Infantry Division"
+		location = 11842
+		division_template = "Bulgarian Infantry"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 1    #optional, otherwise starts with equipment factor of 1 (maximum)
+
+	}
+		division= {
+		name = "7th Infantry Division"
+		location = 922
+		division_template = "Bulgarian Infantry"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 1    #optional, otherwise starts with equipment factor of 1 (maximum)
+
+	}
+}

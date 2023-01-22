@@ -10,7 +10,10 @@ state= {
 	state_category = town
 
 	history= {
-		owner = BUL
+		owner = ABL
+		add_core_of = ABL
+		add_core_of = MSC
+		add_core_of = PRB
 		add_core_of = BUL
 		add_core_of = GRE
 		victory_points = {

@@ -1,0 +1,21 @@
+state={
+	id=933
+	name="STATE_933"
+	provinces={
+		2160 5229 12916 12979 
+	}
+	manpower=154493
+			state_category = town
+		history = {
+					buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			}
+		owner = INA
+		add_core_of = INA
+
+		}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

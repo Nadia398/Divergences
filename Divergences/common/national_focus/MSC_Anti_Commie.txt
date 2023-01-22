@@ -1,0 +1,35 @@
+focus_tree = {
+id=MSC_Anti_Commie
+country = {
+    factor = 0
+}
+	focus = {
+		id = MSC_ac
+		x = 10
+		y = 0
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 75
+
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = -100
+		}
+	}
+}

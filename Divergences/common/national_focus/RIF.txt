@@ -93,12 +93,16 @@ country = {
 	id = RIF_Victory
 	x=10
 	y=2
-	prerequisite = {focus = RIF_RIF_Rally_Feminists}
+	availible = {
+	 	owns_state = 461
+	}
+	prerequisite = {focus = RIF_Rally_Feminists}
 	prerequisite = {focus = RIF_Rally_Saharans}
 	prerequisite = {focus = RIF_Rally_Communists}
 	cost = 1
 	completion_reward = {
 			add_political_power = 5
+			set_cosmetic_tag = RIF_UNIFIED
 	}
 	}
 }

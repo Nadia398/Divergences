@@ -1,3 +1,7 @@
+ABL = "countries/AnarchistBulgaria.txt"
+PRB = "countries/PRBulgaria.txt"
+TAW = "countries/Tawantinsuyu.txt"
+INA = "countries/Inca.txt"
 NWT = "countries/NorthwestTerritories.txt"
 BLK = "countries/Blackfoot.txt"
 WAA = "countries/WaState.txt"

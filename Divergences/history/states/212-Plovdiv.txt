@@ -11,7 +11,10 @@ state={
 	}
 
 	history={
-		owner = BUL
+		owner = PRB
+		add_core_of = PRB
+		add_core_of = MSC
+		add_core_of = ABL
 		victory_points = { #Plovdiv
 			6923 10
 		}

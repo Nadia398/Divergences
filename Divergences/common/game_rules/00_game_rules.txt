@@ -601,7 +601,34 @@ text = "RULE_OPTION_HO_CHI_MINH"
 desc = "RULE_OPTION_HO_CHI_MINH_AI_DESC"
 allow_achievements = yes
 }
-
+option = {
+name = Random
+text = "RULE_OPTION_INC_Random"
+desc = "RULE_OPTION_INC_Random_AI_DESC"
+allow_achievements = yes
+}
+}
+MSC_Cooperation_Behavior= {
+name = "MSC_Cooperation_Behavior"
+group = "RULE_GROUP_AI_BEHAVIOR"
+default= {
+name = Support_Commies
+text = "RULE_OPTION_MSC_Support_Commies"
+desc = "RULE_OPTION_MSC_Support_Commies_AI_DESC"
+allow_achievments = yes
+}
+option = {
+name = Oppose_Commies
+text = "RULE_OPTION_MSC_Oppose_Commies"
+desc = "RULE_OPTION_MSC_Oppose_Commies_AI_DESC"
+allow_achievements = yes
+}
+option = {
+name = Random
+text = "RULE_OPTION_MSC_Random"
+desc = "RULE_OPTION_MSC_Random_AI_DESC"
+allow_achievements = yes
+}
 }
 GER_ai_behavior = {
 	name = "GER_AI_BEHAVIOR"

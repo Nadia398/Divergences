@@ -62,8 +62,8 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = revisionist_socialism
+	last_election = "1935.2.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -80,9 +80,12 @@ create_country_leader = {
 }
 
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	anarchism = 2
+	revisionist_socialism = 33
+	communism = 14
+	vanguard_socialism = 20
+	progressivism = 11
+	democratic = 20
 }
 
 recruit_character = TRA_pot
@@ -105,3 +108,4 @@ recruit_character = TRA_mt
 recruit_character = TRA_ai2
 recruit_character = TRA_coi
 recruit_character = TRA_acr
+recruit_character = TRA_Otto_Roth

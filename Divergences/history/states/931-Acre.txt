@@ -1,0 +1,19 @@
+state={
+	id=931
+	name="STATE_931"
+	provinces={
+		2198 5216 8185 10960 
+	}
+	manpower=125437
+	state_category = pastoral
+			history = {
+					buildings = {
+			infrastructure = 2
+						industrial_complex = 1
+						}
+		owner = INA
+		add_core_of = INA
+		}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

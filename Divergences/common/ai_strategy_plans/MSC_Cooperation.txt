@@ -1,0 +1,48 @@
+MSC_Pro_Commie ={
+name = "1"
+desc = "2"
+allowed = {
+original_tag = MSC
+}
+enable = {
+has_focus_tree = MSCPR_focus
+has_game_rule = {
+rule = MSC_Cooperation_Behavior
+option = Support_Commies
+}
+}
+ai_national_focuses = {
+MSC_Unification_with_Turkia
+MSC_Integrate_Governments
+MSC_Calm_The_Nationalists
+MSC_A_Union_Of_Republics
+MSC_Stabilizing_Turkia
+MSC_Cooperation_With_The_Communists
+}
+}
+
+
+MSC_Pro_Commie123 ={
+name = "3"
+desc = "4"
+allowed = {
+original_tag = MSC
+}
+enable = {
+has_focus_tree = MSCPR_focus
+has_game_rule = {
+rule = MSC_Cooperation_Behavior
+option = Oppose_Commies
+}
+}
+ai_national_focuses = {
+MSC_Unification_with_Turkia
+MSC_Integrate_Governments
+MSC_Calm_The_Nationalists
+MSC_A_Union_Of_Republics
+MSC_Stabilizing_Turkia
+MSC_Workers_Party_Alone
+}
+
+
+}

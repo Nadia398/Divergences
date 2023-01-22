@@ -5,6 +5,9 @@ state={
 
 	history={
 		owner = BUL
+		add_core_of = BUL
+		add_core_of = PRB
+		add_core_of = ABL
 		victory_points = {
 			11818 5 
 		}

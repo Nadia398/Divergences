@@ -8,6 +8,8 @@ state={
 			11857 1 
 		}
 		owner = BUL
+		add_core_of = ABL
+		add_core_of = PRB
 		buildings = {
 			infrastructure = 2
 
